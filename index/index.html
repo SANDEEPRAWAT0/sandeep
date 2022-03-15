@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
     <title>Backtracking</title>
+    <style>
+        label{
+            color:red;
+        }
+    </style>
     <link rel="stylesheet"href="external.css">
         <!-- <style>
         body{
@@ -21,7 +26,7 @@
     <p>Conceptually, you start at the root of a tree; the tree probably has some good leaves and some bad leaves, though it may be that the leaves are all good or all bad. You want to get to a good leaf. At each node, beginning with the root, you choose one of its children to move to, and you keep this up until you get to a leaf.</p>
     <p>Suppose you get to a bad leaf. You can backtrack to continue the search for a good leaf by revoking your most recent choice, and trying out the next option in that set of options. If you run out of options, revoke the choice that got you here, and try another choice at that node. If you end up at the root with no options left, there are no good leaves to be found.</p>
     <p>This needs an example.</p>
-    <img  
+       <img  
      src="https://www.cis.upenn.edu/~matuszek/cit594-2012/Pages/backtracking_files/treesearch.gif"align="center" />
      <br>
      
@@ -109,18 +114,39 @@
 <form>
     <fieldset>
         <legend>Login Form</legend>
-    <label>UserName</label>
+    <label class="redcolor fontType">UserName</label>
     <br>
-    <input type="text" id="username" style="color:aliceblue">
+    <input type="text"class="Redcolor fontType ">
     <br>
-    <label>Password</label>
+    <label id="password">Password</label>
     <br>
     <input type="text" id="password" style="color:aquamarine;">
     <br>
-    <label>Are u sure</label>
-    <input type="checkbox">
+    <label class="Redcolor fontType ">Are u sure</label>
+    <input type="checkbox" id ="checkbox">
     <br>
-    <input type="button"value="submit" style="color:orange;"
+    <input type="button"value="submit" class="submit"style="color:black;">
+    <br>
 </fieldset>
 </form>
+<br>
+<label class="design">DESIGN1</label>
+<BR>
+<label style="color:aquamarine;">DESIGN2</label>
+<div>this is division1</div>
+<div>this is division2</div>
+<input type="text">
+<input type="text">
+<textarea>test</textarea>
+<br>
+<span>this is span1</span>
+<span>this is span2</span>
+<br>
+<p class="ptag">Sample P</p>
+</tag>
+<br>
+<div class="name">Here we will display the image</div>
+<br>
+
+
 </body>
